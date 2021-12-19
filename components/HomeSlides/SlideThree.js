@@ -1,9 +1,9 @@
 
 const SlideThree = () => {
     return (
-        <div data-scroll-section >
+        <div data-scroll-section>
             <div className="hero min-h-screen">
-                <div className="hero-overlay bg-green-600"></div>
+                <div className="hero-overlay bg-gradient-to-tl from-lime-400 to-green-600"></div>
                 <div className="hero-content text-neutral-content block">
                     <div className="prose text-center">
                         <h1 className="text-6xl font-black font mt-10 lg:mt-0">

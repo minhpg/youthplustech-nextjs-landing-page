@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-<div className="z-10 navbar bg-transparent text-white lg:fixed min-w-full lg:container lg:px-10">
+<div className="z-10 h-10 lg:h-max navbar bg-black lg:bg-transparent text-white fixed min-w-full lg:container lg:px-10">
   <div className="flex-1 px-2 mx-2">
     <span className="text-2xl font-bold">
             Youth+ Tech
@@ -25,7 +25,7 @@ const Navbar = () => {
   <div className="flex-none">
     <button className="btn btn-square btn-ghost">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current">           
-        <path strokeLinecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>               
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>               
       </svg>
     </button>
   </div>

@@ -2,7 +2,7 @@ const SlideTwo = () => {
     return (
         <div data-scroll-section> 
            <div className="hero min-h-screen">
-            <div className="hero-overlay bg-amber-500"></div>
+            <div className="hero-overlay bg-gradient-to-br from-amber-400 to-orange-500"></div>
             <div className="hero-content text-neutral-content block">
                 <div className="prose text-center">
                     <h1 className="text-6xl font-black">
